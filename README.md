@@ -5,6 +5,10 @@ A new Flutter project.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
+<li><b>Nama  : Riris Silvia Zahri
+<li><b>Kelas : MI 2A
+<li><b>NIM   : 1931710085
+
 # Hasil Dari Praktikum
 
 ## Halaman list Populer Movie
