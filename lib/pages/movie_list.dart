@@ -37,14 +37,19 @@ class _MovieListState extends State<MovieList> {
       body: ListView.builder(
         itemCount: (this.moviesCount == null) ? 0 : this.moviesCount,
         itemBuilder: (context, int position) {
-          return Card(
+      return Card(
             color: Colors.white,
             elevation: 2.0,
             child: ListTile(
               leading: Image.network('https://image.tmdb.org/t/p/w500/' +  movies[position].posterPath),
-              title: Text(movies[position].title),
-              subtitle: Text(
-                'Rating = ' + movies[position].voteAverage.toString(),
+              title: Text(movies[position].title,
+               style: TextStyle(
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.w600
+                                  ),
+                                ),
+              subtitle: Text( movies[position].voteAverage.toString(),
+                
               ),
               //Untuk membuat perpindahan dari movie list ke movie detail buatlah onTap event di listview pada movie list
               onTap: () {

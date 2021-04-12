@@ -7,7 +7,7 @@ import 'package:minggu9/models/movie.dart';
 
 class HttpService {
   final String apiKey = '3550ae3a6a21a1e689239bb9e2df242d';
-  final String baseUrl = 'https://api.themoviedb.org/3/movie/upcoming?api_key=';
+  final String baseUrl = 'https://api.themoviedb.org/3/movie/popular?api_key=';
 
  Future<List> getPopularMovies() async {
     final String uri = baseUrl + apiKey;
