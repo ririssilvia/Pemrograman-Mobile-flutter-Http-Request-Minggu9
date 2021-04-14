@@ -31,7 +31,7 @@ Menambahkan gambar dari response api ke listview,tambahkan gambar tersebut ke li
 
 ## Halaman detail Populer Movie
 ![plot](./image/12.png)
-![plot](./image/12.png)
+![plot](./image/13.png)
 
 
 
