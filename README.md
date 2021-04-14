@@ -9,6 +9,9 @@ This project is a starting point for a Flutter application.
 <li><b>Kelas : MI 2A
 <li><b>NIM   : 1931710085
 
+## Hasil 
+![plot](./image/a.gif)
+
 # Hasil Dari Praktikum
 
 ## Halaman list Populer Movie
@@ -20,4 +23,15 @@ Menambahkan gambar dari response api ke listview,tambahkan gambar tersebut ke li
 
 ## Halaman detail Populer Movie
 ![plot](./image/2.png)
+
+# Hasil Challenge Modifikasilah Tampilan agar terlihat lebih menarik
+
+## Halaman list Populer Movie
+![plot](./image/11.png)
+
+## Halaman detail Populer Movie
+![plot](./image/12.png)
+![plot](./image/12.png)
+
+
 
